@@ -15,7 +15,7 @@ function CreateArea(props) {
         
         if (name === 'title') {
             title = value;
-            value != '' ? setShowContentInput(true) : setShowContentInput(false);
+            value !== '' ? setShowContentInput(true) : setShowContentInput(false);
         } else {
             content = value;
         }
